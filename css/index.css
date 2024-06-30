@@ -1,0 +1,24 @@
+*{
+    background-color: black;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+dl{
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 5px;
+}
+dt{
+    width: 125px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+    margin-left:940px;
+    text-align: justify;
+}

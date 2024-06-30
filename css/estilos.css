@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Roboto_r';
+    src: url(fuentes/Roboto-Black.ttf);
+}
+*{
+    margin: 0;
+}
+.element{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    /*Trandormaciones y transiones*/
+    /*transform: translateX(100px);*/
+    /*transform: translateY(100px);*/
+    /*transform: translateX(150px) translateY(100px);*/
+    /*transform: translate(120px,100px);*/
+    /*
+    transform:rotate(parametros);
+    donde:
+    0-360 deg
+    0-400 grad
+    0-6.28319 rad
+    0-1 turr
+    */
+    transition: 2s;
+}  
+.element:hover{
+    background-color: azure;
+    /*width: 400px;*/
+    /*transform: translate(120px,100px);*/
+    /*transform: rotate(360deg);*/
+    /*transform: scaleX(1.5);200px*1.5==300px*/
+    /*transform: scaleY(1.5);*/
+    transform: scale(1.5);
+    border-radius: 10px 160px;
+    font-size: 10px;
+}
+
+.element h3{
+    font-family: 'Roboto_r';
+    text-align: center;
+    color: blueviolet;
+    padding: 40px;
+}                                       

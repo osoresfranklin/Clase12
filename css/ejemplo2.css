@@ -1,0 +1,21 @@
+
+#recuadro1 {
+    border-radius: 20px;
+    background-color: #ff0;
+    width: 200px;
+    padding: 10px;
+    transition: width 1s,
+
+        background-color 8s;
+
+}
+
+#recuadro1:hover {
+    width: 300px;
+    background-color: #f00;
+}
+
+body {
+    background: white;
+    margin: 50px;
+}

@@ -1,0 +1,35 @@
+
+#recuadro1 {
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #eee;
+    width: 200px;
+    padding: 10px;
+    transition: width 1s ease 1s;
+}
+
+#recuadro1:hover {
+    width: 300px;
+}
+
+#recuadro2 {
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #eee;
+    width: 200px;
+    padding: 10px;
+    transition: width 1s ease,
+
+        background-color 1s ease 1s;
+
+}
+
+#recuadro2:hover {
+    width: 300px;
+    background-color: #ff0;
+}
+
+body {
+    background: white;
+    margin: 50px;
+}

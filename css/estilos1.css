@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Roboto_r';
+    src: url(fuentes/Roboto-Black.ttf);
+}
+*{
+    margin: 0;
+}
+.element{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+    /*Trandormaciones y transiones*/
+    /*transform: translateX(100px);*/
+    /*transform: translateY(100px);*/
+    /*transform: translateX(150px) translateY(100px);*/
+    /*transform: translate(120px,100px);*/
+    /*
+    transform:rotate()
+    */
+
+}
+.element h3{
+    font-family: 'Roboto_r';
+    text-align: center;
+    color: blueviolet;
+    padding: 20px;
+}                                       
